@@ -68,7 +68,7 @@ cax = fig.add_axes([0.92, 0.1, 0.02, 0.8])
 cbar = fig.colorbar(im, cax=cax)
 cbar.ax.set_ylabel('Count', rotation=-90, va="bottom")
 
-# Вывод precision и recall
+# Вывод precision, recall и f1
 fig, ax = plt.subplots(figsize=(8, 6))
 ax.grid(True)
 ax.set_title("Metrics per class")
